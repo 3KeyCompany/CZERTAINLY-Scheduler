@@ -9,7 +9,7 @@ ARG SERVER_PASSWORD
 RUN mvn -f /home/app/pom.xml clean package
 
 # Package stage
-FROM eclipse-temurin:17.0.7_7-jre
+FROM eclipse-temurin:17.0.10_7-jre
 
 MAINTAINER CZERTAINLY <support@czertainly.com>
 
